@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Banner{
+    background-color: rgb(255, 163, 39);
+}
+#logo{
+    aspect-ratio: 1/1;
+    width: 20%;
+}
+body{
+    min-height: 100vh;
+}
+footer{
+    position: sticky;
+    top: 100%;
+}
+#logo_footer{
+    aspect-ratio: 1/1;
+    width: 10%;
+}
+#icon{
+    aspect-ratio: 1/1;
+    width: 7%;
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#categories{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#categories_img{
+    
+    aspect-ratio: 1/1;
+    width: 100%;
+
+}
+#categories_link{
+    
+    aspect-ratio: 1/1;
+    width: 25%;
+    margin: 4%;
+}
+input{
+    float: right;
+    margin: auto;
+    width: 50%;
+
+    aspect-ratio: 7/1;
+    font-size: 5vw;
+    margin-top: 7vw;
+    margin-right: 3vw;
+}
+
