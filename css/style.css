@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-#Banner{
+.Banner{
     background-color: rgb(255, 163, 39);
 }
 #logo{
@@ -18,33 +18,74 @@ footer{
     position: sticky;
     top: 100%;
 }
+h1.product{
+
+    margin-left: 10vw;
+    margin-top: 5vw;
+}
+.textbox{
+    margin: 4vw;
+    background-color: lightgrey;
+
+}
+.cart_button{
+    background-color: rgb(255, 163, 39);
+    margin: 4vw;
+    height: 10vw;
+}
 #logo_footer{
     aspect-ratio: 1/1;
     width: 10%;
 }
-#icon{
+.icon{
     aspect-ratio: 1/1;
     width: 7%;
     float: right;
     margin-top: 2%;
     margin-right: 2%;
 }
+.images{
+    margin: 5vw;
+    width: 90vw;
+}
 #categories{
     display: flex;
     flex-wrap: wrap;
     
 }
-#categories_img{
+.categories_img{
     
     aspect-ratio: 1/1;
     width: 100%;
 
 }
-#categories_link{
+.categories_link{
     
     aspect-ratio: 1/1;
     width: 25%;
     margin: 4%;
+}
+.Banner_login{
+    width: 100vw;
+    background-color: rgb(255, 163, 39);
+}
+.logo_login{
+    width: 50%;
+    margin-left: 23vw;
+}
+.login_input{
+    margin-right: 25vw;
+        
+}
+.login_text{
+    margin-left: 36vw;
+    margin-top: 5vw;
+    font-size: 6vw !important;
+}
+.registration{
+    font-size: 3vw !important;
+    margin-top: 34vw;
+    margin-left: 30vw;
 }
 input{
     float: right;
@@ -55,5 +96,46 @@ input{
     font-size: 5vw;
     margin-top: 7vw;
     margin-right: 3vw;
+}
+@media (min-width: 500px){
+
+    .categories_link{
+        width: 10%;
+    }
+    #logo{
+        width: 10%;
+    }
+    input{
+        aspect-ratio: 9/1;
+        font-size: 4vw;
+        margin-top: 3vw; 
+    }
+    h2{
+        font-size: 4vw !important
+    }
+    h3{
+        font-size: 2vw !important
+    }
+    .images{
+        width: 45vw;
+        float: left;
+    }
+    .textbox{
+        margin-top: 15vw;
+        margin-left: 50vw;
+    }
+    .cart_button{
+        margin-left: 50vw;
+    }
+    .logo_login{
+        scale: 0.6;
+        margin-top: -10vw;
+    }
+    .Banner_login{
+        aspect-ratio: 30/1;
+    }
+    
+    
+    
 }
 
