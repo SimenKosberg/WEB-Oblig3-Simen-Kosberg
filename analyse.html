@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis</title>
+</head>
+<body>
+    <main>
+        <h1>Analyse</h1>
+        <section>
+            <h2>
+                Nøkkelord
+            </h2>
+            <ul>
+                <li>Treningssko</li>
+                <li>Treningssko herrer</li>
+                <li>Treningssko damer</li>
+                <li>Treningssko barn</li>
+                <li>joggesko</li>
+                <li>joggesko herrer</li>
+                <li>joggesko damer</li>
+                <li>joggesko barn</li>
+                <li>basketballsko</li>
+                <li>fotballsko</li>
+            </ul>
+            <p>
+                jeg valgte disse nøkkelordene fordi de er relevante til typen skobutikk det er.
+                Disse nøkkelordene ble også valgt for å være generelle nokk til at de kommer opp når folk søker
+            </p>
+        </section>
+        <section>
+            <h2>
+                SEO Analyse: Lighthouse
+            </h2>
+
+            <h2>index:</h2>
+            
+            <img src="img/Lighthouse_index_p1.png" alt="Lighthouse rapport for index.html">
+            <img src="img/Ligthouse_index_p2.png" alt="Lighthouse rapport for index.html">
+
+            <h2>produktside</h2>
+
+            <img src="img/Lighthouse_prod_p1.png" alt="Lighthouse rapport for produktside.html">
+            <img src="img/Lighthouse_prod_p2.png" alt="Lighthouse rapport for produktside.html">
+
+            <h2>Login side</h2>
+
+            <img src="img/Lighthouse_login_p1.png" alt="Lighthouse rapport for login.html">
+            <img src="img/Lighthouse_login_p2.png" alt="Lighthouse rapport for login.html">
+
+            <h3>
+                Problemer (ps noen av disse er ikke i rapporten fordi jeg måtte levere oblig 3 på nytt)
+            </h3>
+            <h4>
+                Eliminate render blocking resouces
+            </h4>
+            <p>jeg kan forbedre dette ved å ta bort fontawesome scriptet jeg glemte å fjerne siden jeg ikke bruker den</p>
+            <h4>
+                Serve images in next-gen format
+            </h4>
+            <p>jeg endret alle ikonene og logoen til fra .png til .webp</p>
+            <h4>
+                Document does not have a meta description
+            </h4>
+            <p>dette kommer senere i oppgaven</p>
+            <h4>
+                image elements do not have explicit width and height
+            </h4>
+            <p>ga Grey_Square.svg en aspect ratio: 1/1</p>
+            <h4>
+                Heading elements are not in sequentially-descending order
+            </h4>
+            <p>byttet elemntene slik at h2 var over h3 og endret skriftstørrelsene med CSS</p>
+
+        </section>
+        <section>
+            <h2>UU Analyse: WAVE</h2>
+            <h3>index</h3>
+            <img src="img/Wave_index.png" alt="UU analyse av index.html">
+            <h3>produktside</h3>
+            <img src="img/Wave_prod.png" alt="UU analyse av produktside.html">
+            <h3>login</h3>
+            <img src="img/Wave_login.png" alt="UU analyse av login.html">
+
+            <h4>missing form label</h4>
+            <p>ser ingen grunn til å legge en label til søkefeltet</p>
+            <p>la til label for login skjemaet</p>
+
+        </section>
+        <section>
+            <h2>UU og SEO analyse:ChatGPT</h2>
+            
+
+            <h2>index</h2>
+            
+            <h3>User Experience (UU) Perspective:</h3>
+
+            <h4>Mobile Responsiveness:</h4>
+            <ul>
+                <li>If not already done, thoroughly test the website on various devices to ensure consistent and pleasing user experience. Adjust styles or layout if needed.</li>
+            </ul>
+
+            <h4>Navigation:</h4>
+            <ul>
+                <li>Consider adding more navigational elements, like a menu icon for smaller screens, to improve accessibility on mobile devices.</li>
+            </ul>
+
+            <h3>Search Engine Optimization (SEO) Perspective:</h3>
+
+            <h4>Page Title:</h4>
+            <ul>
+                <li>Ensure that the title tag (title) accurately represents the content of the page. For example, if the page is about sports equipment, the title could be more descriptive like "Tread - Your Source for Quality Sports Equipment."</li>
+            </ul>
+
+            <h4>Descriptive Alt Text:</h4>
+            <ul>
+                <li>Make alt text more descriptive and include relevant keywords. For example, instead of "running," use something like "High-Quality Running Gear at Tread."</li>
+            </ul>
+
+            <h4>Link Descriptions:</h4>
+            <ul>
+                <li>Use descriptive and keyword-rich anchor text for links. For example, instead of &lt;a href="produktside.html" class="categories_link"&gt;, consider something like &lt;a href="running-products.html" class="categories_link"&gt;High-Performance Running Gear&lt;/a&gt;.</li>
+            </ul>
+
+            <h4>Meta Description:</h4>
+            <ul>
+                <li>Add a meta description to provide a concise summary of the page content. This should be unique for each page and include relevant keywords.</li>
+            </ul>
+
+            <h4>Social Media Meta Tags:</h4>
+            <ul>
+                <li>Add Open Graph meta tags to improve the presentation of the page when shared on social media platforms. Include tags like og:title, og:description, and og:image with relevant content.</li>
+            </ul>
+
+            <h4>Structured Data:</h4>
+            <ul>
+                <li>If applicable, implement Schema.org markup to provide search engines with additional information about the content on the page. For example, mark up product details using Product schema.</li>
+            </ul>
+
+            <h4>Loading Performance:</h4>
+            <ul>
+                <li>Optimize images and other assets for faster loading times. Consider using image compression and lazy loading techniques.</li>
+            </ul>
+            
+            
+
+            <h2>produktside</h2>
+
+            <h3>User Experience (UU) Perspective: </h3>
+
+            <h4>Header and Navigation:</h4>
+            <ul>
+                <li>Solution: Ensure that the navigation elements, such as the logo and search input, remain easily accessible and well-designed on all device sizes.</li>
+            </ul>
+
+            <h4>Main Content:</h4>
+            <ul>
+                <li>Solution: Consider adding more visual elements to the product section, such as clear images, to enhance the overall user experience.</li>
+                <li>Solution: Provide additional details in the product description to give users a comprehensive understanding of the featured product.</li>
+            </ul>
+
+            <h4>Footer:</h4>
+            <ul>
+                <li>Solution: Ensure that the footer links are relevant and provide value to users. Consider adding additional links or information for a more comprehensive footer.</li>
+            </ul>
+
+            <h3>Search Engine Optimization (SEO) Perspective:</h3>
+
+            <h4>Title Tag:</h4>
+            <ul>
+                <li>Solution: While "Tread" is concise, consider appending a relevant keyword to the title for better SEO. For example, "Tread - Quality Sports Equipment."</li>
+            </ul>
+
+            <h4>Stylesheet:</h4>
+            <ul>
+                <li>Solution: Continue using external CSS for styling. Ensure that the stylesheet is optimized for performance and adheres to best practices.</li>
+            </ul>
+
+            <h4>Images:</h4>
+            <ul>
+                <li>Solution: Add descriptive alt text to all images, including the logo and product image. This enhances accessibility and provides context to search engines.</li>
+            </ul>
+
+            <h4>Document Structure:</h4>
+            <ul>
+                <li>Solution: The current use of semantic elements is good. Ensure that the HTML document maintains a clear and logical structure as content expands.</li>
+            </ul>
+
+            <h4>Keywords:</h4>
+            <ul>
+                <li>Solution: Integrate relevant keywords naturally into the product description and name to improve search engine visibility. For example, include terms related to the product category.</li>
+            </ul>
+
+            <h2>Login</h2>
+            <h3>User Experience (UU) Perspective:</h3>
+
+            <h4>Header and Navigation:</h4>
+            <ul>
+                <li>Solution: Ensure that the search input is appropriately styled and functional for a seamless user experience.</li>
+                <li>Solution: Add descriptive text or tooltips to interactive elements like the logo for better user understanding.</li>
+            </ul>
+
+            <h4>Main Content:</h4>
+            <ul>
+                <li>Solution: Consider providing additional context or imagery in the main content section to engage users further.</li>
+                <li>Solution: Ensure that the login form is user-friendly and responsive on various devices for a consistent experience.</li>
+            </ul>
+
+            <h4>Footer:</h4>
+            <ul>
+                <li>Solution: Ensure that the footer icons (shopping cart and user) have clear functions and are easily recognizable by users.</li>
+            </ul>
+
+            <h3>Search Engine Optimization (SEO) Perspective:</h3>
+
+            <h4>Title Tag:</h4>
+            <ul>
+                <li>Solution: Keep the title tag concise but consider adding a relevant keyword to enhance search engine visibility.</li>
+            </ul>
+
+            <h4>Stylesheet:</h4>
+            <ul>
+                <li>Solution: Ensure that the external stylesheet is well-organized and follows best practices for maintainability.</li>
+            </ul>
+
+            <h4>Images:</h4>
+            <ul>
+                <li>Solution: Add descriptive alt text to all images, including the logo and icons, for better accessibility and SEO.</li>
+            </ul>
+
+            <h4>Document Structure:</h4>
+            <ul>
+                <li>Solution: The document structure is generally good; ensure that it remains logical and semantic as content evolves.</li>
+            </ul>
+
+            <h4>Form Accessibility:</h4>
+            <ul>
+                <li>Solution: Include appropriate labels and ensure accessibility attributes for form inputs to enhance user experience for all users, including those with disabilities.</li>
+            </ul>
+
+            <h4>Registration Link:</h4>
+            <ul>
+                <li>Solution: Consider making the "Register here" link more prominent for users who do not have an account.</li>
+            </ul>
+        </section>
+
+        <style>
+            .grid_label_container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                background-color: gray;
+                padding: 5px;
+            }
+            .grid_label_item {
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 60px;
+                font-size: 30px;
+                text-align: center;
+            }
+        </style>
+
+        <section class="grid_label_container">
+            <p class="grid_label_item">WAVE/Webaim</p>
+            <p class="grid_label_item">Lighthouse</p>
+            <p class="grid_label_item">ChatGPT</p>
+
+            <p class="grid_label_item">Missing form label</p>
+            <p class="grid_label_item"></p>
+            <p class="grid_label_item">Missing form label</p>
+
+            <p class="grid_label_item"></p>
+            <p class="grid_label_item">No meta description</p>
+            <p class="grid_label_item">No meta description</p>
+
+            <p class="grid_label_item">Insufficient alt description</p>
+            <p class="grid_label_item"></p>
+            <p class="grid_label_item">Insufficient alt description</p>
+
+            <p class="grid_label_item"></p>
+            <p class="grid_label_item"></p>
+            <p class="grid_label_item">Keyword in title</p>
+        </section>
+
+        <section>
+            <h2>Lighthouse test etter analyse</h2>
+            <h3>index.html</h3>
+            <img src="img/lh_final_index.png" alt="Lighthouse index">
+            <h3>produktside</h3>
+            <img src="img/lh_final_prod.png" alt="Lighthouse produktside">
+            <h3>login</h3>
+            <img src="img/lh_final_login.png" alt="Lighthouse login">
+            <p>gikk opp i SEO men gikk ned betydelig i performance på alle sidene (vet ikke hvorfor)</p>
+        </section>
+
+        <section>
+            <h2>Tilgjengelighet</h2>
+            <p>det var noen deler av testen som var vanskelig men det meste var mulig ved hjelp fra semantiske tagger som beskrev rollen til de fleste funksjonene</p>
+        </section>
+    </main>
+</body>
+</html>

@@ -92,6 +92,15 @@ img{
     margin-top: 34vw;
     margin-left: 30vw;
 }
+
+.skip_nav_link{
+    position: absolute;
+    top: -100%;
+}
+.skip_nav_link:focus{
+    top: 0;
+}
+
 input{
     float: right;
     margin: auto;
